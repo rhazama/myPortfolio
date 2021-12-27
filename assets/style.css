@@ -34,7 +34,15 @@ header li a {
     font-family: Arial, Helvetica, sans-serif;
     color: #f7f6f0;
     float: right;
+    flex-direction: row;
     justify-content: space-around;
+}
+
+header li a:hover {
+    cursor: pointer;
+    color: #7f867b;
+    transform: scale(1.04);
+    transform: transform 100ms;
 }
 
 section h3 {
