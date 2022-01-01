@@ -62,9 +62,17 @@ section h3 {
 }
 
 .aboutMeSection {
-    margin: 40;
-    padding: 40;
+    margin: 40px;
+    padding: 40px;
     float: right;
+}
+
+.workSection {
+    background: #d49e8d;
+    width:95%;
+    margin: 40px;
+    padding: 40px;
+    float: left;
 }
 
 h4 a {
@@ -82,40 +90,33 @@ h4 a:hover {
 footer {
     background: #d49e8d;
     width: 100%;
-    padding: 40px 35px;
-    flex-wrap: wrap;
+    padding: 40px 35px;  
+    box-sizing: border-box;  
 }
-    
+   
 footer h2 {
     text-decoration: none;
     color: #faf6f2;
     font-size: 36px;
 }
 
-footer h3 a {
-    text-decoration: none;
-    display: inline;
-    color: #faf6f2;
-    font-size: 25px;
-    margin: 0;
-    flex-direction: row;
-    justify-content: space-around;
-}
-    
+
 footer div {
     float: right;
     line-height: 1.5;
     text-align: right;
+    display:inline;
 }
   
 .footer{
+    text-decoration: none;
     color: #faf6f2;
     font-family: Arial;
     font-size: 15px;
     margin: 0 150px;
-    display:inline;
     padding: 15px;
     float:center;
+    display: inline;
 }
 
 .footer:hover {
