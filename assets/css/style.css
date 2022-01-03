@@ -41,10 +41,8 @@ nav li {
 header li a {
     text-decoration: none;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
     color: #f7f6f0;
     margin: 10px;
-    display: inline;
 }
 
 header li a:hover {
@@ -74,10 +72,32 @@ img {
 
 .projectSection {
     background: #aea885;
-    width:95%;
-    margin: 40px;
-    padding: 40px;
+    width: 95%;
+    margin: 200px;
+    padding: 200px;
     float: left;
+    position:relative;
+}
+
+.projects {
+    position: absolute;
+    top: 25%;
+    padding: 20px;
+    display: inline;
+}
+
+.projectFlexbox {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid white;
+    display: flex;
+}
+
+.project {
+    border:20px solid white;
+    margin: 0.5cm;
+    padding:0.5cm;
 }
 
 h4 a {
@@ -94,42 +114,48 @@ h4 a:hover {
 
 div p {
     color: #545b5c;
-    
 }
 
+/* Start of footer css */
 footer h2 {
-    text-decoration: none;
+    list-style-type: none;
     color: #faf6f2;
     font-size: 36px;
 }
 
-footer div {
+.contactInfoDiv {
     float:left;
-    text-align: left;
     background:#0c4160;
-    width:100%;
-    display:inline;
-}
-
-.container {
-    margin:150px auto;
-    width: 50%;
-    padding: 8px;
+    margin: 0px;
+    width: 100%;
+    display:flex;
+    padding: 40px 35px;
 }
   
-.footer{
-    text-decoration: none;
+.contactInfo {
+    list-style-type: none;
     color: #faf6f2;
     font-family: Arial;
     font-size: 15px;
-    text-align: justify;
-    margin: 20px 150px;
+    margin: 10px;
     padding: 15px;
-    float:center;
-    display: inline;
+    display: flex;
 }
 
-.footer:hover {
+.contactInfo ul {
+    list-style-type: none;
+    display: flex;
+    padding: 40px 35px;
+}
+
+.contactInfoDiv li {
+    list-style-type: none;
+    font-size: 20px;
+    color: #f7f6f0;
+    margin: 10px;
+}
+
+.contactInfoDiv li:hover {
     cursor: pointer;
     color: #7f867b;
     transform: scale(1.04);
