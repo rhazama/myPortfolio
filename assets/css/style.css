@@ -13,6 +13,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+/* header section */
 header {
     padding: 40px 35px;
     background-color: #545b5c;
@@ -38,6 +39,7 @@ nav li {
     padding: 15px;
     float:center;
 }
+
 header li a {
     text-decoration: none;
     font-size: 20px;
@@ -52,6 +54,7 @@ header li a:hover {
     transform: transform 100ms;
 }
 
+/* about me section */
 section h3 {
     text-decoration: none;
     font-size: 35px;
@@ -67,42 +70,47 @@ section h3 {
 img {
     float: left;
     padding: 0 10px 0 0;
-
 }
 
+/* projects */
 .projectSection {
     background: #aea885;
-    width: 95%;
-    margin: 200px;
+    width: 100%;
     padding: 200px;
-    float: left;
+    float: right;
     position:relative;
+    border:20px solid white;
+
 }
 
 .projects {
     position: absolute;
-    top: 25%;
+    top: 10%;
     padding: 20px;
     display: inline;
 }
 
+.project img {
+    padding: 0 0 0;
+}
+
 .projectFlexbox {
     list-style-type: none;
+    text-align: center;
     margin: 0px;
     padding: 0px;
-    border: 1px solid white;
     display: flex;
 }
 
 .project {
-    border:20px solid white;
-    margin: 0.5cm;
-    padding:0.5cm;
+    border:1px solid white;
+    margin: 0.1cm;
+    padding: 0.5cm;
 }
 
 h4 a {
     text-decoration: none;
-    color: #545b5c;
+    color: white;
 }
 
 h4 a:hover {
@@ -148,14 +156,16 @@ footer h2 {
     padding: 40px 35px;
 }
 
-.contactInfoDiv li {
+.contactInfoDiv h3 a{
     list-style-type: none;
+    text-decoration: none;
     font-size: 20px;
     color: #f7f6f0;
     margin: 10px;
+    float: right;
 }
 
-.contactInfoDiv li:hover {
+.contactInfoDiv h3 a:hover {
     cursor: pointer;
     color: #7f867b;
     transform: scale(1.04);
