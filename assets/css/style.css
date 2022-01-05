@@ -80,6 +80,8 @@ img {
     float: right;
     position:relative;
     border:20px solid white;
+    flex-wrap: wrap;
+
 }
 
 .projectSection h3 {
