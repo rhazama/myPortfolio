@@ -80,14 +80,18 @@ img {
     float: right;
     position:relative;
     border:20px solid white;
+}
 
+.projectSection h3 {
+    padding: 100px;
+    text-align: center;
 }
 
 .projects {
     position: absolute;
-    top: 10%;
+    top: 50%;
     padding: 20px;
-    display: inline;
+    float: right;
 }
 
 .project img {
@@ -103,8 +107,7 @@ img {
 }
 
 .project {
-    border:1px solid white;
-    margin: 0.1cm;
+    margin: 0.5cm;
     padding: 0.5cm;
 }
 
