@@ -1,4 +1,4 @@
 # myPortfolio
-Just a few things projects I've worked/ am currently working on
+Here is my work in progress portfolio.
 
 Link to website: https://rhazama.github.io/myPortfolio/
