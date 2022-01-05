@@ -4,39 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Ryan Hazama</title>
 </head>
 <body>
     <!--header-->
     <header>
+      <center>
         <h1>
             <a href="index.html">Ryan Hazama</a>
         </h1>
         <nav>
           <ul>
-            <li>
-              <a href="#aboutMe">About Me</a>
-            </li>
-            <li>
-              <a href="#work">Work</a>
-            </li>
-            <li>
-              <a href="https://github.com/rhazama" target=”_blank”>Resume</a>
-            </li>
-            <li>
-              <a href="#ryans-contact-info">Contact Info</a>
-            </li>
+            <li><a href="#aboutMe">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="https://github.com/rhazama" target=”_blank”>Resume</a></li>
+            <li><a href="#contactInfo">Contact Info</a></li>
           </ul>
         </nav>
+      </center>
+      </div>
     </header>
     <!--end of header-->
     <br/>
     <!--about me section-->
-    <section id="aboutMe">
+    <section id="aboutMe"> 
         <div class="aboutMeSection">
             <h3>About Me</h3>
         <br/>
+        <img src="assets/Images/IMG_8532.jpg" width="300px">
         <div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit turpis nulla. Curabitur ante velit, bibendum ac sodales a, porta quis lectus. Donec volutpat velit eu leo euismod placerat. In nec rhoncus ipsum. Quisque sed dolor dui. Nunc a metus nibh. Aenean quis interdum augue, eget sollicitudin est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
             <br/>
@@ -47,38 +43,42 @@
     <!--end of about me section-->
     <br/>
     <!--portfolio-->
-    <section id="work">
-        <div class="workSection">
-            <h3>Work</h3>
-          <div class="work1">
-              <h3>Horiseon Refractor</h3>
-              <ul>
-                  <li>
-                      <h4><a href="https://rhazama.github.io/horiseonRefactor-rh/" target="_blank">Horiseon Refractor</a></h4>
+    <section id="projects">
+        <div class="projectSection">
+            <h3>My Projects</h3>
+            <div class="projects">
+            <ul class="projectFlexbox">
+                  <li class="project">
+                    <h4><a href="https://rhazama.github.io/horiseonRefactor-rh/" target="_blank">Horiseon Refractor</a></h4>
+                    <img src="assets/Images/project1.jpg" width="200">
                   </li>
-              </ul>
-          </div>
+                  <li class="project">
+                    <h4><a href="https://rhazama.github.io/passwordGenerator-rh/" target="_blank">Password Generator</a></h4>
+                    <img src="assets/Images/project2.jpg" width="200">
+                  </li>
+                  <li class="project">
+                    <h4><a href="https://rhazama.github.io/javascriptQuiz-rh/" target="_blank">Javascript Quiz</a></h4>
+                    <img src="assets/Images/project3.jpg" width="200">
+                  </li>
+                  <li class="project">
+                    <h4><a href="https://theplantsproject.live" target="_blank">The Plants Project</a></h4>
+                    <img src="assets/Images/project4.jpg" width="200">
+                  </li>
+                </ul>
+            </div>
       </div>
     </section>
     <!--end of my porfolio-->
     <br/>
     <!--footer-->
-    <footer id="ryans-contact-info" class="contact-info">
-      <h2>Contact Info</h2>
-      <div>
+    <footer id="contactInfo" class="contactInfo">
+      <div class="contactInfoDiv">
         <ul>
-          <li>
-            <h3><a href="https://www.facebook.com/ryan.hazama/" target=”_blank”>Facebook</a></h2>
-          </li>
-          <li>
-            <h3><a href="https://github.com/rhazama" target=”_blank”>GitHub</a></h2>
-          </li>
-          <li>
-            <h3><a href="https://www.linkedin.com/in/ryan-hazama/" target="_blank">Linkedin</a></h2>
-          </li>
-          <li>
-            <h3>Email: rhazama01@gmail.com</h3>
-          </li>
+          <li><h2>Contact Info:</h2></li>
+          <li><h3><a href="https://www.facebook.com/ryan.hazama/" class="footer" target=”_blank”>Facebook</a></h2></li>
+          <li><h3><a href="https://github.com/rhazama"  class="footer" target=”_blank”>GitHub</a></h2></li>
+          <li><h3><a href="https://www.linkedin.com/in/ryan-hazama/" class="footer" target="_blank">Linkedin</a></h2></li>
+          <li><h3><a>rhazama01@gmail.com</a></h3></li>
         </ul>
       </div>
     </footer>

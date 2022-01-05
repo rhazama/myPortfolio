@@ -1,0 +1,178 @@
+:root {
+    background-color: #faf6f2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #e2e6e8;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* header section */
+header {
+    padding: 40px 35px;
+    background-color: #545b5c;
+    flex-wrap: wrap;
+}
+
+header h1 a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 48px;
+    color: #c1c3be;
+}
+
+header h1 a:hover {
+    cursor: pointer;
+    color: #7f867b;
+    transform: scale(1.04);
+    transform: transform 100ms;
+}
+
+nav li {
+    display:inline;
+    padding: 15px;
+    float:center;
+}
+
+header li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #f7f6f0;
+    margin: 10px;
+}
+
+header li a:hover {
+    cursor: pointer;
+    color: #7f867b;
+    transform: scale(1.04);
+    transform: transform 100ms;
+}
+
+/* about me section */
+section h3 {
+    text-decoration: none;
+    font-size: 35px;
+    color: #545b5c;
+}
+
+.aboutMeSection {
+    margin: 40px;
+    padding: 40px;
+    float: right;
+}
+
+img {
+    float: left;
+    padding: 0 10px 0 0;
+}
+
+/* projects */
+.projectSection {
+    background: #aea885;
+    width: 100%;
+    padding: 200px;
+    float: right;
+    position:relative;
+    border:20px solid white;
+    flex-wrap: wrap;
+
+}
+
+.projectSection h3 {
+    padding: 100px;
+    text-align: center;
+}
+
+.projects {
+    position: absolute;
+    top: 50%;
+    padding: 20px;
+    float: right;
+}
+
+.project img {
+    padding: 0 0 0;
+}
+
+.projectFlexbox {
+    list-style-type: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+.project {
+    margin: 0.5cm;
+    padding: 0.5cm;
+}
+
+h4 a {
+    text-decoration: none;
+    color: white;
+}
+
+h4 a:hover {
+    cursor: pointer;
+    color: #7f867b;
+    transform: scale(1.04);
+    transform: transform 100ms;
+}
+
+div p {
+    color: #545b5c;
+}
+
+/* Start of footer css */
+footer h2 {
+    list-style-type: none;
+    color: #faf6f2;
+    font-size: 36px;
+}
+
+.contactInfoDiv {
+    float:left;
+    background:#0c4160;
+    margin: 0px;
+    width: 100%;
+    display:flex;
+    padding: 40px 35px;
+}
+  
+.contactInfo {
+    list-style-type: none;
+    color: #faf6f2;
+    font-family: Arial;
+    font-size: 15px;
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+}
+
+.contactInfo ul {
+    list-style-type: none;
+    display: flex;
+    padding: 40px 35px;
+}
+
+.contactInfoDiv h3 a{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: #f7f6f0;
+    margin: 10px;
+    float: right;
+}
+
+.contactInfoDiv h3 a:hover {
+    cursor: pointer;
+    color: #7f867b;
+    transform: scale(1.04);
+    transform: transform 100ms;
+}
